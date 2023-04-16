@@ -1,8 +1,5 @@
 function AlertFunction(){
-	var x1 = document.getElementById('text1').value;
-	var x2 =  document.getElementById('text2').value;
-	var x3 =  document.getElementById('num').value;
-	var x4 =  document.getElementById('mail').value;
-	
-	alert(x1+" "+x2);
+	var firstN=document.getElementById("fname").value;
+	var lastN=document.getElementById("lname").value;
+	alert(firstN+" "+lastN);
 }
