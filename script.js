@@ -4,5 +4,5 @@ function AlertFunction(){
 	var x3 =  document.getElementById('num').value;
 	var x4 =  document.getElementById('mail').value;
 	
-	alert("First Name: "+x1+"\n Last Name: "+x2+"\n Phone Number: "+x3+"\n Email ID: "+x4);
+	alert(x1+" "+x2);
 }
